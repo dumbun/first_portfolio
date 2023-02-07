@@ -1,0 +1,183 @@
+body {
+	font-family: "Montserrat";
+	text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Montserrat";
+	font-weight: bold;
+}
+
+p {
+	color: #8f8f8f;
+}
+
+/* Navigation Bar */
+
+.navbar {
+	padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+	font-family: "Ubuntu";
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.navbar-item {
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+.nav-link {
+	font-size: 1.2rem;
+	font-family: "Montserrat";
+	font-weight: 300;
+	cursor: pointer;
+}
+/* containers */
+
+.container-fluid {
+	padding: 7% 15%;
+}
+/* Section */
+
+.colored-section {
+	background-color: #ff4c68;
+	color: #fff;
+}
+
+.white-section {
+	background-color: #fff;
+}
+/* Title */
+
+#title {
+	background-color: #ff4c68;
+	color: #fff;
+}
+
+#title .container-fluid {
+	padding: 3% 15% 7%;
+	text-align: left;
+}
+
+.big-heading {
+	font-family: "Montserrat";
+	font-size: 3.5rem;
+	line-height: 1.5;
+	font-weight: 900;
+}
+
+.phone-image {
+	width: 60%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 30%;
+}
+
+/* Download Buttons  */
+
+.download-Buttons {
+	margin: 5% 3% 5% 0%;
+}
+
+/*  Features  */
+
+#features {
+	position: relative;
+}
+
+.features-h {
+	font-family: "Montserrat";
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.Features-p {
+	font-weight: 300;
+	color: #8f8f8f;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.features-icons {
+	color: #ef8172;
+	margin-bottom: 1rem;
+	/* font-size: 60px; */
+	transition: 0.6s;
+}
+
+.features-icons:hover {
+	color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+	background-color: #ef8172;
+}
+
+.testimonial-img {
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+.testimonial-text {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+/* press */
+
+#press {
+	background-color: #ef8172;
+	padding-bottom: 3%;
+}
+
+.press-logo {
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+
+/* pricing  section */
+
+#pricing {
+	padding: 100px;
+	line-height: 1.5;
+}
+.pricing-head {
+	font-size: 3rem;
+}
+.pricing-text {
+	font-size: 3rem;
+}
+
+.pricing-col {
+	padding: 3% 2%;
+}
+
+/* footer */
+
+.social-icons {
+	margin: 20px 10px;
+}
+
+/* media Query */
+
+@media (max-width: 991px) {
+	#title {
+		text-align: center;
+	}
+	.phone-image {
+		position: static;
+		transform: rotate(0);
+		text-align: center;
+	}
+}

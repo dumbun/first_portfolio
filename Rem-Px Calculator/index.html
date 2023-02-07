@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>px-rem-px convertor</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css" />  
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Itim&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap");
+    </style>
+
+</head>
+
+<body>
+    <div tag="px-rem converter px-rem-px">
+        <input id="px" class="user" type="input" placeholder="Insert the px value" onkeyup="calculateRem()" value="" /
+            tag="px-rem converter px-rem-px">
+        <label class="labels" for="input" tag="px-rem converter px-rem-px">px</label>
+    </div>
+    <div>
+        <input id="rem" class="user" type="input" placeholder="Insert the rem value" onkeyup="calculatePx()" value="" /
+            tag="px-rem converter px-rem-px">
+        <label class="labels" for="input" tag="px-rem converter px-rem-px">rem</label>
+    </div>
+
+    <h2 tag="px-rem converter px-rem-px">Convert pixels to REM</h2>
+    <p tag="px-rem converter px-rem-px">
+        This calculator converts pixels to the CSS unit REM. The conversion is
+        based on the default font-size of <strong>16 pixel</strong> , but can be
+        changed. With the CSS rem unit you can define a size relative to the
+        font-size of the HTML root tag. The conversion works of course in both
+        directions, just change the opposite input field. An example So if we take
+        the default size as an example, than 1px represents 0.0625rem and, in the
+        other direction, 1rem represents 16px. EM vs. REM: The differences Inside
+        a sinlge document, the length of a REM unit is everywhere the same, it can
+        just differ between documents. EM on the other side can differ between
+        every element, because it is relative to the elements own font-size
+        (excpetion is the font-size itself, in it EM is relative to the parent).
+        REM is the newer unit, older browsers don't support it.
+    </p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

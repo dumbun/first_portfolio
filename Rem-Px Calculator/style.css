@@ -1,0 +1,75 @@
+body {
+    background-color: #AEE2FF;
+    text-align: center;
+
+
+}
+
+h2 {
+
+    font-family: 'Itim', cursive;
+    color: #fff;
+    font-size: 2rem;
+    margin: 8% auto auto auto;
+
+}
+
+p {
+    font-family: 'Itim', cursive;
+    font-size: 1.2rem;
+    margin: 25px;
+    color: #4B82A6;
+}
+
+#px {
+    font-family: 'Itim', cursive;   
+    background-color: #93C6E7;
+    height: 73px;
+    width: 710px;
+    border-radius: 10px;
+    margin: 10% 7px 5% auto;
+    text-align: center;
+    font-size: 2.1rem;
+    color: rgb(117, 117, 117);
+    border: none;
+
+}
+
+#rem {
+    font-family: 'Itim', cursive;
+    background-color: #93C6E7;
+    height: 73px;
+    width: 710px;
+    border-radius: 10px;
+    margin: 0% 7px 5% auto;
+    text-align: center;
+    font-size: 2.1rem;
+    color: rgb(117, 117, 117);
+    border: none;
+
+
+}
+
+.labels {
+    font-family: 'Itim', cursive;
+    font-size: 2.1rem;
+    color: rgb(117, 117, 117);
+    margin: auto auto auto;
+}
+
+@media (max-width:810px) {
+    #px {
+        width: 55%;
+        font-size: 1.5rem;
+        margin-top: 15%;
+    }
+
+    #rem {
+        width: 55%;
+        font-size: 1.5rem;
+
+    }
+}
+
+
+
