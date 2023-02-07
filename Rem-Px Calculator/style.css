@@ -22,7 +22,7 @@ p {
 }
 
 #px {
-    font-family: 'Itim', cursive;   
+    font-family: 'Itim', cursive;
     background-color: #93C6E7;
     height: 73px;
     width: 710px;
@@ -57,6 +57,10 @@ p {
     margin: auto auto auto;
 }
 
+.copyright {
+    margin-top: 5%;
+}
+
 @media (max-width:810px) {
     #px {
         width: 55%;
@@ -70,6 +74,3 @@ p {
 
     }
 }
-
-
-
