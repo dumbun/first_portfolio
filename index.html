@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Vamshi Krishna</title>
-	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="style.css" />
 	<link rel="icon" href="K.ico" />
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,326 +15,20 @@
 
 	<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
 		rel="stylesheet" />
-	<style>
-		body {
-			color: #40514e;
-			margin: 0;
-			text-align: center;
-			font-family: "Merriweather", serif;
-		}
 
-		h1 {
-			font-size: 5.62rem;
-			margin: 50px auto 0px auto;
-			font-family: "Sacramento", cursive;
-			color: #66bfbf;
-		}
-
-		h2 {
-			font-family: "Montserrat", sans-serif;
-			font-size: 2.5rem;
-			color: #66bfbf;
-			font-weight: normal;
-			padding-bottom: 10px;
-		}
-
-		h3 {
-			font-family: "Montserrat", sans-serif;
-			color: #11999e;
-		}
-
-		a {
-			font-family: "Montserrat", sans-serif;
-			color: #11999e;
-			transition: 0.5s;
-		}
-
-		a:hover {
-			color: #eaf6f6;
-		}
-
-		.projects-links {
-			text-decoration: none;
-			font-size: 1.5rem;
-			font-weight: bold;
-			transition: 0.5s ease;
-			line-height: 1;
-		}
-
-		.projects-links:hover {
-			color: #06787c;
-			text-decoration: underline;
-			font-size: 2rem;
-		}
-
-		.topContainer {
-			background-color: #e4f9f5;
-			position: relative;
-			padding-top: 150px;
-			width: auto;
-		}
-
-		.programmer {
-			margin-top: 0%;
-			margin-bottom: 30px;
-			margin-left: auto;
-			margin-right: auto;
-		}
-
-		.flaticon {
-			display: none;
-			pointer-events: none;
-		}
-
-		.topCloud {
-			position: absolute;
-			right: 300px;
-			top: 50px;
-		}
-
-		.bottomCloud {
-			position: absolute;
-			left: 250px;
-			bottom: 300px;
-		}
-
-		.skill-row {
-			width: 50%;
-			margin: 100px auto 100px auto;
-			text-align: left;
-			line-height: 2;
-		}
-
-		.avatar {
-			padding-top: 30px;
-			height: 200px;
-		}
-
-		.skillComputer {
-			border-radius: 100%;
-			height: 25%;
-			width: 25%;
-			float: left;
-			margin-right: 30px;
-		}
-
-		.creatingGif {
-			border-radius: 200px;
-			width: 25%;
-			float: right;
-			margin-left: 30px;
-		}
-
-		hr {
-			border: 6px;
-			border-style: none;
-			border-top-style: dotted;
-			border-color: lightgrey;
-			width: 4%;
-			margin: 100px auto;
-		}
-
-		.btn {
-			background: #11cdd4;
-			background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-			background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-			background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-			background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-			background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-			-webkit-border-radius: 20;
-			-moz-border-radius: 20;
-			border-radius: 8px;
-			font-family: "Montserrat", sans-serif;
-			color: #ffffff;
-			font-size: 20px;
-			padding: 10px 20px 10px 20px;
-			text-decoration: none;
-		}
-
-		.btn:hover {
-			background: #30e3cb;
-			background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-			background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-			background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-			background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-			background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-			text-decoration: none;
-		}
-
-		.contact-message {
-			width: 40%;
-			margin: 50px auto 50px auto;
-		}
-
-		.middleContainer {
-			margin: 50px auto 50px auto;
-		}
-
-		.bottomContainer {
-			margin-top: 50px;
-			height: 187px;
-			background-color: #66bfbf;
-		}
-
-		.footer-link {
-			position: relative;
-			top: 55px;
-			text-decoration: none;
-			font-family: "Montserrat", sans-serif;
-			margin-left: 20px;
-			font-weight: bold;
-		}
-
-		.copy-right {
-			color: #eaf6f6;
-			position: relative;
-			top: 80px;
-			font-size: 0.75rem;
-		}
-
-		.intro {
-			width: 30%;
-			margin: auto auto 50px auto;
-		}
-
-		.skills {
-			margin: 50px auto 50px auto;
-		}
-
-		.contact-me {
-			margin: 50px auto 50px auto;
-		}
-
-		p {
-			line-height: 2;
-		}
-
-		.instagram-icon {
-			height: 30%;
-		}
-
-		span {
-			transition: 0.5s;
-		}
-
-		span:hover {
-			text-decoration: underline;
-			color: #06787c;
-			cursor: pointer;
-			font-size: 3rem;
-		}
-
-		@media (max-width: 575px) {
-			.mountain {
-				width: 100%;
-			}
-
-			.bottomCloud {
-				top: 520px;
-			}
-
-			.skillComputer {
-				border-radius: 100%;
-				height: 100%;
-				width: 100%;
-				float: none;
-				margin-right: auto;
-			}
-
-			.creatingGif {
-				border-radius: 100%;
-				height: 100%;
-				width: 100%;
-				float: none;
-				margin: auto;
-			}
-
-			hr {
-				width: 10%;
-			}
-
-			h1 {
-				font-size: 4rem;
-			}
-
-			.programmer {
-				font-size: 1.5rem;
-			}
-		}
-
-		/* .............hover image .................. */
-		.container {
-			position: relative;
-			width: 30%;
-			display: inline-flex;
-			margin: 5px;
-			transition: 2s ease;
-		}
-
-		.image {
-			opacity: 1;
-			display: inline;
-			width: 100%;
-			height: auto;
-			transition: 0.5s ease;
-			backface-visibility: hidden;
-			margin-top: 20px;
-		}
-
-		.middle {
-			transition: 0.5s ease;
-			opacity: 0;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			-ms-transform: translate(-50%, -50%);
-			text-align: center;
-			color: white;
-		}
-
-		.container:hover .image {
-			opacity: 0.5;
-		}
-
-		.container:hover .middle {
-			opacity: 1;
-			/* color: #06787c; */
-		}
-
-		.text {
-			color: #fff;
-			border-radius: 5px;
-			/* background-color: #11cdd4; */
-			font-size: 1.5rem;
-			padding: 15px 20px;
-		}
-
-		.text-links {
-			color: white;
-			text-decoration: none;
-		}
-
-		@media (max-width: 575px) {
-			.container {
-				width: auto;
-				margin: 10px;
-			}
-		}
-	</style>
 </head>
 
 <body>
 	<div class="topContainer">
-		<img class="topCloud" src="cloud.png" alt="clouds" />
+		<img class="topCloud" src="resource/cloud.png" alt="clouds" />
 		<h1>I'm Vamshi Krishna.</h1>
 		<h2 class="programmer">a <span>pro</span>grammer.</h2>
-		<img class="bottomCloud" src="cloud.png" alt="clouds" />
-		<img class="mountain" src="mountain.png" alt="mountains" />
+		<img class="bottomCloud" src="resource/cloud.png" alt="clouds" />
+		<img class="mountain" src="resource/mountain.png" alt="mountains" />
 	</div>
 	<div class="middleContainer">
 		<div class="profile">
-			<img class="avatar" src="avatar3.png" alt="K Vamshi Krishna" />
+			<img class="avatar" src="resource/avatar3.png" alt="K Vamshi Krishna" />
 			<h2>Hello.</h2>
 			<p class="intro">
 				I'm a Creator, and Technology Enthusiast. I ❤️ cofee and playing video
@@ -367,7 +61,7 @@
 
 		<div>
 			<div class="container">
-				<img src="drum kit.png" alt="Avatar" class="image" style="width: 100%" />
+				<img src="resource/drum kit.png" alt="drum kit" class="image" style="width: 100%" />
 				<div class="middle">
 					<div class="text" style="background-color: #283149">
 						<a class="text-links" href="Drum Kit /index.html">Drum-Kit</a>
@@ -376,7 +70,7 @@
 			</div>
 
 			<div class="container">
-				<img src="TINDOG.png" alt="Avatar" class="image" style="width: 100%" />
+				<img src="resource/TINDOG.png" alt="tindog" class="image" style="width: 100%" />
 				<div class="middle">
 					<div class="text" style="background-color: #ff4c68">
 						<a class="text-links" href="tindog/index.html">TinDog</a>
@@ -385,7 +79,7 @@
 			</div>
 
 			<div class="container">
-				<img src="dicee.png" alt="Avatar" class="image" style="width: 100%" />
+				<img src="resource/dicee.png" alt="random dicee" class="image" style="width: 100%" />
 				<div class="middle">
 					<div class="text" style="background-color: #393e46">
 						<a class="text-links" href="Random-Dicee/index.html">Random-Dicee</a>
@@ -393,7 +87,7 @@
 				</div>
 			</div>
 			<div class="container">
-				<img src="Tip-Calculator.png" alt="Tip_calculator" class="image" style="width: 100%" />
+				<img src="resource/Tip-Calculator.png" alt="Tip_calculator" class="image" style="width: 100%" />
 				<div class="middle">
 					<div class="text" style="background-color: #8990ec">
 						<a class="text-links" href="tip-calculator/index.html">Tip_calculator</a>
@@ -401,7 +95,7 @@
 				</div>
 			</div>
 			<div class="container">
-				<img src="px-rem.png" alt="px-rem" class="image" style="width: 100%" />
+				<img src="resource/px-rem.png" alt="px-rem" class="image" style="width: 100%" />
 				<div class="middle">
 					<div class="text" style="background-color: #4B82A6">
 						<a class="text-links" href="Rem-Px Calculator/index.html">
@@ -415,7 +109,7 @@
 		<div class="skills">
 			<h2>My Skills.</h2>
 			<div class="skill-row">
-				<img class="skillComputer" src="DXKg.gif" alt="computer" />
+				<img class="skillComputer" src="resource/DXKg.gif" alt="K Vamshi Krishna" />
 				<h3>Web Developer</h3>
 				<p>
 					I enjoy creating, thinking and technology and learning new
@@ -424,7 +118,7 @@
 				</p>
 			</div>
 			<div class="skill-row">
-				<img class="creatingGif" src="creating.gif" alt="K Vamshi Krishna" />
+				<img class="creatingGif" src="resource/creating.gif" alt="K Vamshi Krishna" />
 				<h3>Creating</h3>
 				<p>
 					Outside of work I love creating, primarily through the mediums of
