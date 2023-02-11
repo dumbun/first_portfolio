@@ -1,27 +1,4 @@
 
-
-
-// detecting buttons cliks 
-
-
-for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
-
-    document.querySelectorAll(".drum")[i].addEventListener("click", function () {
-
-        var buttonsPressed = this.innerHTML;
-        makeSound(buttonsPressed);
-        buttonAnimation(buttonsPressed)
-    })
-}
-
-
-// detecting keybord clicks
-
-document.addEventListener("keydown", function (event) {
-    makeSound(event.key);
-    buttonAnimation(event.key)
-})
-
 // main Function
 
 
@@ -77,3 +54,27 @@ function buttonAnimation(whenPressed) {
     }, 100);
 
 }
+
+
+
+// detecting buttons cliks 
+
+
+for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
+
+    document.querySelectorAll(".drum")[i].addEventListener("click", function () {
+
+        var buttonsPressed = this.innerHTML;
+        makeSound(buttonsPressed);
+        buttonAnimation(buttonsPressed)
+    })
+}
+
+
+// detecting keybord clicks
+
+document.addEventListener("keydown", function (event) {
+    makeSound(event.key);
+    buttonAnimation(event.key)
+})
+
