@@ -106,9 +106,10 @@ function startOver() {
 
 $(".btn").click(function (e) {
 
-    sounds(userChosenColor)
+    
     let userChosenColor = e.target.id
     userClickedPattern.push(userChosenColor)
+    sounds(userChosenColor)
     animatePress(e.currentTarget)
     checkAnswer(userClickedPattern.length - 1)
 
