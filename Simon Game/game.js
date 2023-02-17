@@ -12,7 +12,7 @@ let started = false
 
 var green = new Audio("sounds/green.mp3")
 var red = new Audio("sounds/red.mp3")
-var blue = new Audio("/sounds/blue.mp3")
+var blue = new Audio("sounds/blue.mp3")
 var yellow = new Audio("sounds/yellow.mp3")
 var wrong = new Audio("sounds/wrong.mp3")
 
@@ -106,9 +106,9 @@ function startOver() {
 
 $(".btn").click(function (e) {
 
+    sounds(userChosenColor)
     let userChosenColor = e.target.id
     userClickedPattern.push(userChosenColor)
-    sounds(userChosenColor)
     animatePress(e.currentTarget)
     checkAnswer(userClickedPattern.length - 1)
 
